@@ -1,0 +1,90 @@
+.container{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.container img{
+    width: 50px;
+    height: 50px;
+    border-radius: 70px;
+    padding: 10px;
+}
+li{
+    padding: 15px;
+    
+    
+}
+
+/* .lista:hover{
+    border-bottom: 5px solid #654fa5;
+    transition: 1s;
+} */
+
+button{
+    border: none;
+    padding:0 30px;
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgba(1, 1, 1, 0.226);
+    border-radius: 10px;
+}
+
+.container-infor{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+    
+}
+
+a{
+    text-decoration: none;
+     border-radius: 10px;
+     color: white;
+     
+}
+
+h1{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 2em;
+   color: #654fa5;
+
+}
+
+.cadastrar{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #654fa5;
+    padding: 15px 20px ;
+    text-align: center;
+
+}
+
+.info-unitel{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.saber{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid  #654fa5;
+    padding: 15px 20px ;
+    color:  #654fa5;
+    text-align: center;
+  
+}
