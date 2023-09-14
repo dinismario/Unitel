@@ -1,10 +1,15 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .container{
-   
+    background-color: rgba(255, 166, 0, 0.713);
+    padding-bottom: 2em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
 }
 .menu{
     display: flex;
@@ -17,30 +22,52 @@
 }
 
 .container img{
-    width: 50px;
-    height: 50px;
-    border-radius: 70px;
+   font-size: 0.6em;
+    margin-left: 5%;
     padding: 10px;
 }
 li{
     padding: 15px;
+    font-size: 1.1em;
     
     
 }
-
-/* .lista:hover{
-    border-bottom: 5px solid #654fa5;
-    transition: 1s;
-} */
+.lista:hover{
+    transform: scale(0.8);
+    color: rgb(255, 255, 255);
+    transition: 0.8s ease-in-out;
+    cursor: pointer;
+    
+}
 
 button{
     border: none;
     padding:0 30px;
-    background-color: orange;
+    background-color:#654fa5;
     color: rgb(255, 255, 255);
     border: 2px solid rgba(1, 1, 1, 0.226);
     border-radius: 10px;
 }
+
+button:hover{
+    transform: scale(0.8);
+    background-color: rgba(204, 204, 204, 0.755);
+    transition: 0.8s ease-in-out;
+    cursor: pointer;
+    color: black;
+}
+.fundo-img{
+    padding-top: 30px;
+    margin-left: 2%;
+    
+}
+
+#img1{
+    border-radius: 20px;
+    width: 600px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.456);
+}
+
 
 .container-infor{
     display: flex;
@@ -72,13 +99,19 @@ h1{
 
 }
 
+.cadastrar:hover{
+    transform: scale(0.9);
+    background-color: orange;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    color: black;
+}
+
 .info-unitel{
     display: flex;
     flex-direction: column;
     
 }
-
-
 
 .saber{
     font-family: Arial, Helvetica, sans-serif;
@@ -87,4 +120,183 @@ h1{
     color:  #654fa5;
     text-align: center;
   
+}
+
+.saber:hover{
+    transform: scale(0.9);
+    background-color: orange;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    color: black;
+}
+h3,h2{
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    color:#674faf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.4em;
+    background-color: orange;
+    height: 10px;
+   border-radius: 48px 0;
+}
+
+.pai{
+   
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+  
+}
+section>p{
+   
+    line-height: 30px;
+    color: #ffffffca;
+    padding-bottom: 8em;
+    padding-top: 8em;
+    font-size: 1.2em;
+  
+    
+}
+.parte1{
+  font-size: 1.5em;
+  padding-left: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  line-height: 25px;
+}
+section#img{
+    background-image: url('./share-img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    
+}
+
+
+.parte3{
+    font-size: 1.5em;
+    padding-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+}
+section#img2{
+    background-image: url('./predio.jpg');
+    background-position: top right ;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+h4{
+    text-align: center;
+    color: black;
+   
+}
+
+.parte2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#filho1{
+    border-radius: 88px 0;
+    width: 500px;
+    padding: 10px;
+    padding-bottom: 50px;
+    margin-left: 5%;
+    
+}
+#filho2{
+    border-radius: 88px 0;
+    width: 500px;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.parte4{
+    display: flex;
+    justify-content: space-between;
+}
+#filho3{
+    border-radius: 88px 0;
+    width: 500px;
+    padding: 10px;
+    padding-bottom: 50px;
+    margin-left: 5%;
+}
+#filho4{
+    border-radius: 88px 0;
+    width: 500px;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+h5{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.2em;
+    margin: 30px auto;
+    background-color: orange;
+    color: #654fa5;
+    padding: 15px 20px ;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+h5:hover{
+    background-color: #3e3e3e4b ;
+    color: black;
+    cursor: pointer;
+    transition: 1s;
+    transform: translate(10px , 10px);
+    
+}
+
+footer{
+    background-color: black;
+    height: 200px;
+}
+#trans{
+  width: 190px;
+  height: 50px;
+  padding: 50px;
+}
+
+#intas{
+  width: 50px;
+  height: 50px;
+  padding: 50px;
+  border-radius: 40%;
+  
+}
+
+#intas:hover{
+  transition: 1s;
+  transform: rotate(20deg) ;
+   
+}
+
+#git{
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    border-radius: 40%;
+}
+
+#git:hover{
+
+    transition: 1s;
+    transform: rotate(20deg) ;
+}
+
+h6{
+    color: white;
+    font-size: 1em;
+    text-decoration: underline;
+    text-align: right;
+    padding: 10px;
 }

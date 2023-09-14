@@ -1,0 +1,8 @@
+.carousel{
+    margin: 60px;
+}
+
+.cursos{
+    display: flex;
+    justify-content: space-around;
+}
